@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import styles from '/css/dap.module.css'
+import Mail from '/js/dap.module.js'
 
 function Home(){
     //
@@ -13,6 +14,7 @@ function Home(){
             <Caps2>Outro Exemplo</Caps2>
             <br></br>
             <Contador />
+            <Mail />
         </div>
     )
 }
