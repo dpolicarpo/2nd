@@ -20,10 +20,12 @@ function Home(){
 }
 
 function Contador(){
-    const [contador, setContador] = useState(1);
+    const [contador, setState_contador] = useState(1);
+    //console.log(setState_contador);
+    //console.log(setState_contador.toString())
 
     function addContador(){
-        setContador(contador +1);
+        setState_contador(contador +1);
     }
 
     return(
